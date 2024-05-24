@@ -2,7 +2,7 @@ const qrcode = require('qrcode-terminal');
 const { Client, LegacySessionAuth, LocalAuth, MessageMedia} = require('whatsapp-web.js');
 const { OpenAI} = require("openai");
 const openai = new OpenAI({
-    apiKey: "your api key" // This is also the default, can be omitted
+    apiKey: "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" // This is also the default, can be omitted
 });
 const client = new Client({
      authStrategy: new LocalAuth({
